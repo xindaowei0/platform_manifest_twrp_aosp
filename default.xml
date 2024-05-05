@@ -2,8 +2,8 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/"
-           review="https://mirrors.tuna.tsinghua.edu.cn/" />
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/"
+           review="https://mirrors.tuna.tsinghua.edu.cn/git/" />
   <default revision="refs/tags/android-12.1.0_r4"
            remote="aosp"
            sync-j="4" />

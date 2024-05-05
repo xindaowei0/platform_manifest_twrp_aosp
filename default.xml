@@ -2,10 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/"
-           review="https://mirrors.tuna.tsinghua.edu.cn/git/" />
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/"
+           review="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/platform/" />
   <default revision="refs/tags/android-12.1.0_r4"
-           remote="aosp"
+           remote="manifest"
            sync-j="4" />
 
   <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r4" />
